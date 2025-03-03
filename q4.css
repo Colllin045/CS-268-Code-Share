@@ -1,0 +1,76 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 27, 27);
+
+}
+
+.container{
+
+    background-color: white;
+    
+    max-width: 800px; /* 适配屏幕 */
+    margin:20px auto;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+
+    position: relative;
+
+}
+
+
+
+h1{
+    font-size: 40px;
+    font-weight: 5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+
+
+}
+
+h2{
+    position: relative;    
+    background-color: gold;
+    color:	#a57d19;
+
+
+}
+
+h1,h2{
+
+    position: relative; 
+    z-index: 1; 
+}
+p{
+    margin-right: 250px;
+}
+table{
+    max-width:750px;
+    height:auto;
+    border:3px solid black;
+    border-collapse: collapse;
+
+}
+table th, table td {
+    border: 1px solid black; 
+    padding: 2px;
+}
+
+.img {
+
+    position: absolute; 
+    top: 109px;
+    right: 10px;
+    z-index: 2; 
+
+    float: right;
+    width: 240px;
+    height: auto;
+    padding: 10px;
+    margin: 1px;
+}
+

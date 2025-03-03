@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+
+
+}
+
+.top{
+    color:white;
+    
+    width: 800px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    margin-bottom:0;
+
+    padding: 10px;
+    padding-top: 170px;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    background-image: url("edgplayer.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+
+
+    }
+
+
+
+.container{
+    position: relative; 
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+    
+
+}
+
+
+
+.navigation{
+    width: 195px;
+    height: 400px;
+    background-color: lightyellow;
+    border: 2px solid black;
+
+    float: left;
+
+}
+
+.content{
+    width:595px;
+    height:400px;
+
+
+    border: 2px solid black;
+    float: right;
+
+}
+
+table{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:585px;
+    height:auto;
+    
+    border: 1px solid black; /* 确保边框为黑色 */
+    border-collapse: collapse; /* 合并边框，避免双重边框 */
+}
